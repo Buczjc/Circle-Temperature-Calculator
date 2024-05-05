@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>body {
+        background: rgb(0,36,27);
+      background: linear-gradient(90deg, rgba(0,36,27,1) 0%, rgba(9,121,12,1) 10%, rgba(8,136,107,1) 40%, rgba(6,68,160,1) 79%, rgba(0,212,255,1) 100%);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 80vh;
+      }
+      
+      .container h3 {
+        font-family: "Fascinate", system-ui;
+        color: azure;
+        font-size: 250%;
+      }
+      
+      .options {
+        font-family:Arial, Helvetica, sans-serif;
+        font-weight: bold;
+      }
+      
+      .options a {
+        text-decoration: none;
+        color: whitesmoke;
+        background-color: #00B3FF;
+        padding: 10px;
+        border-radius: 3px;
+      }
+      
+      .options a:hover {
+        background-color: #008ECB;
+      }
+      
+      .options a:active {
+        text-decoration: none;
+        background-color: #008ECB;
+        opacity: 0.5;
+      }
+      
+      .circle-opt {
+        margin-right: 8px;
+      }
+
+      .copyright-preference {
+        color: rgb(241, 96, 77);
+        font-family: sans-serif;
+        font-size: small;
+        display: flex;
+        justify-content: center;
+        padding-top: 100px;
+      }
+      
+      </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fascinate&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h3>Basic Circle Calculator <br>and <br> Temperature Converter</h3>
+        <div class="options">
+            <a href="circle.php" class="circle-opt">Circle Calculator</a>
+            <a href="temp.php" class="temperature-opt">Temperature Converter</a>
+        </div>
+        <div class="copyright-preference">
+          <p>&copy; BUCZ</p>
+        </div>
+    </div>
+
+</body>
+</html>
